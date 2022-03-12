@@ -3,15 +3,17 @@
  * main - print if the number is postive, zero, or negative
  *
  * Description: using the main function
- * this program prints "Print all single digit numbers starting from 0
+ * this program prints "Prints the lowercase alphabet in reverse
  * Return: 0
  */
 int main(void)
 {
-	int i;
+	char c;
 
-	for (i = 48; i < 58; i++)
-		putchar(i);
-	putchar('\n');
-        return (0);		
+	for (c = 'z'; c >= 'a'; c--)
+	{
+	putchar(c);
+	}
+		putchar('\n');
+			return (0);
 }
