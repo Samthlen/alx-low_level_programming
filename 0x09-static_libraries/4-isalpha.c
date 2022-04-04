@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
-<<<<<<< HEAD
  * _isalpha - Checks for alphabetic character
  *
  * @c: The character to test
@@ -13,7 +12,6 @@ int _isalpha(int c)
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 		return (1);
 	return (0);
-=======
  * _isalpha - checks for lowercase character.
  *
  * @c: char type letter
@@ -31,5 +29,4 @@ int _isalpha(int c)
 	{
 		return (0);
 	}
->>>>>>> 166eaf2e0225bf527a46d8a7673f9f2dccf7f6f8
 }

@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
-<<<<<<< HEAD
 * _strspn - search a string for a set of bytes
 * @s: char string array
 * @accept: char array to check bytes with
@@ -34,7 +33,6 @@ break;
 i++;
 }
 return (c);
-=======
  * _strspn - search a string for a set of bytes
  * @s: char string array
  * @accept: char array to check bytes with
@@ -67,5 +65,4 @@ unsigned int _strspn(char *s, char *accept)
 		i++;
 	}
 	return (c);
->>>>>>> 166eaf2e0225bf527a46d8a7673f9f2dccf7f6f8
 }
