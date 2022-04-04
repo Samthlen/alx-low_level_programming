@@ -31,4 +31,7 @@ char *_strpbrk(char *s, char *accept)
 
 	return (0);
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 166eaf2e0225bf527a46d8a7673f9f2dccf7f6f8
