@@ -4,11 +4,6 @@
  * _strlen - convert strings to length
  * @s:parameter to be converted
  * Return: length of a given string
- * _strlen - function that returns the lenght of a string.
- *
- * @s: char type variable
- *
- * Return: string length of a given string.
  */
 
 int _strlen(char *s)
