@@ -8,7 +8,11 @@
  */
 listint_t *reserve_listint(listint_t **head)
 {
-	listint_t *start = NULL, *next;
+	listint_t *start;
+	listint_t *next;
+
+	start = NULL;
+	next = NULL;
 
 	while (*head)
 	{
