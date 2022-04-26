@@ -3,6 +3,8 @@
 /**
  * free_listint2 - Functions that free a list head = NULL
  *
+ * @head: pointer
+ *
  * Return: nothing
  */
 void free_listint2(listint_t **head)
