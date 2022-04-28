@@ -1,12 +1,12 @@
 #include "lists.h"
 
 /**
- * reserve_listint - Function Reverse the list
+ * reverse_listint - Funtion Reverse the list
  * @head: head of linked list
  *
  * Return: list
  */
-listint_t *reserve_listint(listint_t **head)
+listint_t *reverse_listint(listint_t **head)
 {
 	listint_t *start;
 	listint_t *next;
